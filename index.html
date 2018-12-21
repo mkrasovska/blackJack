@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+  </head>
+
+  <body>
+    <main>
+      <div class="main-container">
+        <section class="game-log" id=gamelog></section>
+
+        <section class="game-field">
+          
+          <div>
+          <h1>Игра 21</h1>
+          <button class="new-game" onclick="blackJack()">Начать игру</button>
+          </div>
+
+          <div class=opponent-field>
+            <p>Карты оппонента</p>
+          <div class="opponent-cards">
+            <div class="card-image"></div>
+            <div class="card-image"></div>
+          </div>
+          </div>
+
+          <div class="desision-buttons">
+          <button class="next-card" onclick="takeNext()">Взять карту</button>
+          <button class="stop-game" onclick="Stop()">Хватит</button>
+          </div>
+          
+          <!-- <img class="field-picture" scr="img/pic1.jpg">  -->
+         
+          <div class=your-field>
+          <p>Ваши карты</p>
+          <div class="your-cards">
+            <div class="card-image"></div>
+            <div class="card-image"></div>
+          </div>
+        </div>
+          
+          </section>
+
+        </div>
+      </div>
+
+     
+
+    </main>
+
+    <div class="block2">
+      Ut wisis enim ad minim veniam, quis nostrud exerci tution ullamcorper
+      suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+    </div>
+
+    <script src="blackJack.js"></script>
+  </body>
+</html>

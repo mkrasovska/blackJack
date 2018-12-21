@@ -1,0 +1,74 @@
+.main-container {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+.game-log {
+  background-color: rgb(200, 150, 100);
+  width: 30%;
+}
+
+.game-field {
+  background-color: green;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 70%;
+  height: 800px;
+  /* background: url('../img/pic1.jpg') no-repeat; */
+}
+
+.opponent-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.your-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.card-image {
+  display: block;
+  width: 100px;
+  height: 150px;
+  background-color: white;
+  z-index: 100;
+  margin: 10px;
+}
+
+.new-game {
+  width: 200px;
+  height: 50px;
+}
+
+.block2 {
+  width: 200px;
+  background: #ccc;
+  padding: 5px;
+  padding-right: 20px;
+  border: solid 1px black;
+  float: left;
+}
+
+.field-picture {
+  width: 500px;
+  z-index: 1000;
+}
+
+.desision-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.next-card,
+.stop-game {
+  width: 200px;
+  height: 50px;
+  margin: 10px;
+}
